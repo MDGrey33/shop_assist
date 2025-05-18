@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ai-shop-assist"
+version = "0.1.0"
+description = "Conversational AI shop assistant with chat ordering and Stripe integration."
+authors = ["Your Name <your@email.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+fastapi = "^0.110.0"
+uvicorn = {extras = ["standard"], version = "^0.29.0"}
+pandas = "^2.2.2"
+python-dotenv = "^1.0.1"
+openai = "^1.23.2"
+stripe = "^8.9.0"
+qrcode = "^7.4.2"
+python-multipart = "^0.0.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.0"
+httpx = "^0.27.0"
+pytest-asyncio = "^0.23.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

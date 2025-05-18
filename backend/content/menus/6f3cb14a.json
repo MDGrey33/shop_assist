@@ -1,0 +1,930 @@
+[
+  {
+    "id": "egg_mcmuffin",
+    "name": "Egg McMuffin™",
+    "category": "Breakfast",
+    "description": "Our signature toasted English muffin with butter, a freshly cracked egg and a slice of melted Cheddar cheese.",
+    "price": 1.8,
+    "currency": "EUR",
+    "calories": 300,
+    "allergens": [
+      "wheat",
+      "egg",
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "id": "mcmuffin_pork_egg",
+    "name": "McMuffin™ with Pork & Egg",
+    "category": "Breakfast",
+    "description": "Toasted and buttered English muffin filled with a 100 % pork patty, melted cheese and a fried egg.",
+    "price": 3.85,
+    "currency": "EUR",
+    "calories": 370,
+    "allergens": [
+      "wheat",
+      "egg",
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "id": "mcmuffin_bacon_egg",
+    "name": "McMuffin™ Bacon & Egg",
+    "category": "Breakfast",
+    "description": "An English muffin with crispy bacon slices, a freshly cracked egg and melted Cheddar cheese.",
+    "price": 3.85,
+    "currency": "EUR",
+    "calories": 460,
+    "allergens": [
+      "wheat",
+      "egg",
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "id": "double_mcmuffin_pork_deluxe",
+    "name": "Double McMuffin™ Pork DeLuxe",
+    "category": "Breakfast",
+    "description": "Roasted English muffin with salad, cheese, special sauce and two 100 % pork patties.",
+    "price": 4.55,
+    "currency": "EUR",
+    "calories": 570,
+    "allergens": [
+      "wheat",
+      "egg",
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "id": "breakfast_mcwrap_pork_egg",
+    "name": "Breakfast McWrap™ – Pork & Egg",
+    "category": "Breakfast",
+    "description": "Warm tortilla wrapped around juicy pork, freshly baked egg, crisp lettuce and special sauce.",
+    "price": 9.05,
+    "currency": "EUR",
+    "calories": 550,
+    "allergens": [
+      "wheat",
+      "egg",
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "id": "breakfast_mcwrap_chicken_bacon",
+    "name": "Breakfast McWrap™ – Chicken & Bacon",
+    "category": "Breakfast",
+    "description": "Crispy chicken strips, bacon, cheese, tomato and salad in a warm tortilla with creamy sauce.",
+    "price": 9.05,
+    "currency": "EUR",
+    "calories": 610,
+    "allergens": [
+      "wheat",
+      "egg",
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "id": "hash_brown",
+    "name": "Hash Brown",
+    "category": "Breakfast",
+    "description": "Golden‑fried potato patty: crispy outside, fluffy inside.",
+    "price": 1.5,
+    "currency": "EUR",
+    "calories": 150,
+    "allergens": [
+      "soy"
+    ]
+  },
+  {
+    "id": "big_mac",
+    "name": "Big Mac®",
+    "category": "Beef & Pork",
+    "description": "Two 100 % beef patties, special Big Mac sauce, lettuce, cheese, pickles and onions in a three‑piece sesame bun.",
+    "price": 4.95,
+    "currency": "EUR",
+    "calories": 530,
+    "allergens": [
+      "wheat",
+      "milk",
+      "soy",
+      "sesame"
+    ]
+  },
+  {
+    "id": "quarter_pounder_cheese",
+    "name": "Quarter Pounder® with Cheese",
+    "category": "Beef & Pork",
+    "description": "A quarter‑pound* beef patty seasoned with just a pinch of salt and pepper, topped with two slices of melted cheese, onions, pickles, mustard and ketchup.",
+    "price": 5.45,
+    "currency": "EUR",
+    "calories": 520,
+    "allergens": [
+      "wheat",
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "id": "double_quarter_pounder_cheese",
+    "name": "Double Quarter Pounder® with Cheese",
+    "category": "Beef & Pork",
+    "description": "Two juicy quarter‑pound* beef patties with melty cheese, slivered onions, tangy pickles, ketchup and mustard on a sesame seed bun.",
+    "price": 6.85,
+    "currency": "EUR",
+    "calories": 750,
+    "allergens": [
+      "wheat",
+      "milk",
+      "soy",
+      "sesame"
+    ]
+  },
+  {
+    "id": "hamburger",
+    "name": "Hamburger",
+    "category": "Beef & Pork",
+    "description": "Simple classic: 100 % beef patty, pickles, onions, ketchup and mustard in a soft bun.",
+    "price": 1.8,
+    "currency": "EUR",
+    "calories": 240,
+    "allergens": [
+      "wheat",
+      "soy"
+    ]
+  },
+  {
+    "id": "cheeseburger",
+    "name": "Cheeseburger",
+    "category": "Beef & Pork",
+    "description": "Hamburger plus a slice of melted cheese.",
+    "price": 1.95,
+    "currency": "EUR",
+    "calories": 290,
+    "allergens": [
+      "wheat",
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "id": "double_cheeseburger",
+    "name": "Double Cheeseburger",
+    "category": "Beef & Pork",
+    "description": "Two beef patties, two slices of cheese, onions, pickles, ketchup and mustard.",
+    "price": 3.9,
+    "currency": "EUR",
+    "calories": 430,
+    "allergens": [
+      "wheat",
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "id": "mcdouble",
+    "name": "McDouble®",
+    "category": "Beef & Pork",
+    "description": "Two seasoned beef patties with a single slice of cheese, pickles, onions, ketchup and mustard.",
+    "price": 2.4,
+    "currency": "EUR",
+    "calories": 380,
+    "allergens": [
+      "wheat",
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "id": "crispy_chicken_classic",
+    "name": "Premium Crispy Chicken Classic Sandwich",
+    "category": "Chicken & Fish",
+    "description": "Crispy breaded chicken breast fillet, fresh lettuce and creamy mayo in a sesame bun.",
+    "price": 5.15,
+    "currency": "EUR",
+    "calories": 510,
+    "allergens": [
+      "wheat",
+      "egg",
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "id": "grilled_chicken_classic",
+    "name": "Premium Grilled Chicken Classic Sandwich",
+    "category": "Chicken & Fish",
+    "description": "Grilled 100 % chicken breast, lettuce and tomato with light mayo in a toasted bun.",
+    "price": 5.15,
+    "currency": "EUR",
+    "calories": 350,
+    "allergens": [
+      "wheat",
+      "egg",
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "id": "southern_style_crispy_chicken",
+    "name": "Southern Style Crispy Chicken Sandwich",
+    "category": "Chicken & Fish",
+    "description": "Southern‑spiced crispy chicken fillet with pickles in a buttered bun.",
+    "price": 4.95,
+    "currency": "EUR",
+    "calories": 430,
+    "allergens": [
+      "wheat",
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "id": "mcchicken",
+    "name": "McChicken®",
+    "category": "Chicken & Fish",
+    "description": "Classic chicken patty with lettuce and McChicken sauce in a toasted bun.",
+    "price": 3.2,
+    "currency": "EUR",
+    "calories": 360,
+    "allergens": [
+      "wheat",
+      "egg",
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "id": "nuggets_6",
+    "name": "Chicken McNuggets® (6 pieces)",
+    "category": "Chicken & Fish",
+    "description": "Six tender chicken breast nuggets, golden‑fried and perfect for dipping.",
+    "price": 3.6,
+    "currency": "EUR",
+    "calories": 280,
+    "allergens": [
+      "wheat",
+      "soy"
+    ]
+  },
+  {
+    "id": "nuggets_10",
+    "name": "Chicken McNuggets® (10 pieces)",
+    "category": "Chicken & Fish",
+    "description": "Ten golden‑crisp nuggets made from 100 % chicken breast meat.",
+    "price": 4.9,
+    "currency": "EUR",
+    "calories": 470,
+    "allergens": [
+      "wheat",
+      "soy"
+    ]
+  },
+  {
+    "id": "filet_o_fish",
+    "name": "Filet‑O‑Fish®",
+    "category": "Chicken & Fish",
+    "description": "Fish fillet in a light batter with tangy tartar sauce and half a slice of cheese.",
+    "price": 4.2,
+    "currency": "EUR",
+    "calories": 390,
+    "allergens": [
+      "wheat",
+      "milk",
+      "fish",
+      "soy"
+    ]
+  },
+  {
+    "id": "bacon_ranch_salad_plain",
+    "name": "Bacon Ranch Salad",
+    "category": "Salads",
+    "description": "Crisp iceberg & romaine mix topped with shredded cheddar, crispy bacon pieces and a creamy ranch dressing on the side.",
+    "price": 3.5,
+    "currency": "EUR",
+    "calories": 140,
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "bacon_ranch_salad_crispy",
+    "name": "Bacon Ranch Salad with Crispy Chicken",
+    "category": "Salads",
+    "description": "Fresh salad blend with cheddar cheese, bacon pieces and strips of crispy breaded chicken breast. Served with ranch dressing.",
+    "price": 5.3,
+    "currency": "EUR",
+    "calories": 380,
+    "allergens": [
+      "wheat",
+      "milk",
+      "soy",
+      "egg"
+    ]
+  },
+  {
+    "id": "bacon_ranch_salad_grilled",
+    "name": "Bacon Ranch Salad with Grilled Chicken",
+    "category": "Salads",
+    "description": "Leafy greens and bacon bits topped with warm grilled chicken breast and cheddar, plus ranch dressing on the side.",
+    "price": 5.3,
+    "currency": "EUR",
+    "calories": 220,
+    "allergens": [
+      "milk",
+      "soy",
+      "egg"
+    ]
+  },
+  {
+    "id": "southwest_salad_plain",
+    "name": "Southwest Salad",
+    "category": "Salads",
+    "description": "Salad mix with black beans, corn, roasted tomatoes, shredded cheese and zesty Southwest dressing.",
+    "price": 3.7,
+    "currency": "EUR",
+    "calories": 140,
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "southwest_salad_crispy",
+    "name": "Southwest Salad with Crispy Chicken",
+    "category": "Salads",
+    "description": "Tex‑Mex style salad with corn & bean salsa, cheese blend and crispy chicken strips. Served with spicy Southwest dressing.",
+    "price": 5.5,
+    "currency": "EUR",
+    "calories": 450,
+    "allergens": [
+      "wheat",
+      "milk",
+      "soy",
+      "egg"
+    ]
+  },
+  {
+    "id": "southwest_salad_grilled",
+    "name": "Southwest Salad with Grilled Chicken",
+    "category": "Salads",
+    "description": "A lighter take featuring grilled chicken breast on a colourful corn‑and‑bean salad with shredded cheese and Southwest dressing.",
+    "price": 5.5,
+    "currency": "EUR",
+    "calories": 290,
+    "allergens": [
+      "milk",
+      "soy",
+      "egg"
+    ]
+  },
+  {
+    "id": "snack_wrap_chipotle_crispy",
+    "name": "Snack Wrap Chipotle BBQ (Crispy)",
+    "category": "Snacks & Sides",
+    "description": "Warm flour tortilla with a crispy chicken strip, shredded lettuce, Cheddar cheese and smoky chipotle BBQ sauce.",
+    "price": 2.9,
+    "currency": "EUR",
+    "calories": 340,
+    "allergens": [
+      "wheat",
+      "milk",
+      "soy",
+      "egg"
+    ]
+  },
+  {
+    "id": "snack_wrap_chipotle_grilled",
+    "name": "Snack Wrap Chipotle BBQ (Grilled)",
+    "category": "Snacks & Sides",
+    "description": "Grilled chicken breast, chipotle BBQ sauce, lettuce and cheese in a soft tortilla.",
+    "price": 2.9,
+    "currency": "EUR",
+    "calories": 260,
+    "allergens": [
+      "wheat",
+      "milk",
+      "soy",
+      "egg"
+    ]
+  },
+  {
+    "id": "snack_wrap_honey_crispy",
+    "name": "Snack Wrap Honey Mustard (Crispy)",
+    "category": "Snacks & Sides",
+    "description": "Crispy chicken strip, shredded lettuce, Cheddar and sweet‑tangy honey mustard dressing in a tortilla.",
+    "price": 2.9,
+    "currency": "EUR",
+    "calories": 330,
+    "allergens": [
+      "wheat",
+      "milk",
+      "soy",
+      "egg"
+    ]
+  },
+  {
+    "id": "snack_wrap_honey_grilled",
+    "name": "Snack Wrap Honey Mustard (Grilled)",
+    "category": "Snacks & Sides",
+    "description": "Grilled chicken, honey mustard sauce, lettuce and Cheddar wrapped in a flour tortilla.",
+    "price": 2.9,
+    "currency": "EUR",
+    "calories": 250,
+    "allergens": [
+      "wheat",
+      "milk",
+      "soy",
+      "egg"
+    ]
+  },
+  {
+    "id": "small_fries",
+    "name": "French Fries (Small)",
+    "category": "Snacks & Sides",
+    "description": "Crispy golden fries made from Latvian‑grown potatoes, lightly seasoned with salt.",
+    "price": 1.35,
+    "currency": "EUR",
+    "calories": 230,
+    "allergens": [
+      "soy"
+    ]
+  },
+  {
+    "id": "medium_fries",
+    "name": "French Fries (Medium)",
+    "category": "Snacks & Sides",
+    "description": "A generous serving of world‑famous fries, crispy outside, fluffy inside.",
+    "price": 2.0,
+    "currency": "EUR",
+    "calories": 340,
+    "allergens": [
+      "soy"
+    ]
+  },
+  {
+    "id": "large_fries",
+    "name": "French Fries (Large)",
+    "category": "Snacks & Sides",
+    "description": "Our largest portion of signature fries—perfect for sharing.",
+    "price": 2.55,
+    "currency": "EUR",
+    "calories": 510,
+    "allergens": [
+      "soy"
+    ]
+  },
+  {
+    "id": "side_salad",
+    "name": "Side Salad",
+    "category": "Snacks & Sides",
+    "description": "A light mix of lettuce, cucumber and cherry tomatoes. Dressing served separately.",
+    "price": 1.7,
+    "currency": "EUR",
+    "calories": 20,
+    "allergens": []
+  },
+  {
+    "id": "apple_slices",
+    "name": "Apple Slices",
+    "category": "Snacks & Sides",
+    "description": "Fresh chilled apple wedges—an easy on‑the‑go snack.",
+    "price": 1.2,
+    "currency": "EUR",
+    "calories": 15,
+    "allergens": []
+  },
+  {
+    "id": "fruit_yogurt_parfait",
+    "name": "Fruit 'n Yogurt Parfait",
+    "category": "Snacks & Sides",
+    "description": "Layers of low‑fat vanilla yogurt, strawberry purée and crunchy granola.",
+    "price": 2.2,
+    "currency": "EUR",
+    "calories": 150,
+    "allergens": [
+      "milk",
+      "wheat"
+    ]
+  },
+  {
+    "id": "baked_apple_pie",
+    "name": "Baked Apple Pie",
+    "category": "Desserts",
+    "description": "Flaky pastry filled with warm cinnamon-spiced apple pieces.",
+    "price": 1.4,
+    "currency": "EUR",
+    "calories": 250,
+    "allergens": [
+      "wheat"
+    ]
+  },
+  {
+    "id": "chocolate_chip_cookie",
+    "name": "Chocolate Chip Cookie",
+    "category": "Desserts",
+    "description": "Soft-baked cookie packed with melted chocolate chips.",
+    "price": 1.2,
+    "currency": "EUR",
+    "calories": 160,
+    "allergens": [
+      "wheat",
+      "milk",
+      "egg",
+      "soy"
+    ]
+  },
+  {
+    "id": "oatmeal_raisin_cookie",
+    "name": "Oatmeal Raisin Cookie",
+    "category": "Desserts",
+    "description": "Chewy oat cookie with sweet raisins and a hint of cinnamon.",
+    "price": 1.2,
+    "currency": "EUR",
+    "calories": 150,
+    "allergens": [
+      "wheat",
+      "milk",
+      "egg",
+      "soy"
+    ]
+  },
+  {
+    "id": "kids_ice_cream_cone",
+    "name": "Kids Ice Cream Cone",
+    "category": "Desserts",
+    "description": "Mini wafer cone filled with creamy vanilla soft‑serve.",
+    "price": 0.7,
+    "currency": "EUR",
+    "calories": 45,
+    "allergens": [
+      "milk",
+      "wheat"
+    ]
+  },
+  {
+    "id": "hot_fudge_sundae",
+    "name": "Hot Fudge Sundae",
+    "category": "Desserts",
+    "description": "Vanilla soft‑serve topped with rich chocolate fudge sauce.",
+    "price": 2.1,
+    "currency": "EUR",
+    "calories": 330,
+    "allergens": [
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "id": "hot_caramel_sundae",
+    "name": "Hot Caramel Sundae",
+    "category": "Desserts",
+    "description": "Soft‑serve vanilla ice cream covered in warm caramel topping.",
+    "price": 2.1,
+    "currency": "EUR",
+    "calories": 340,
+    "allergens": [
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "id": "strawberry_sundae",
+    "name": "Strawberry Sundae",
+    "category": "Desserts",
+    "description": "Creamy vanilla soft‑serve crowned with sweet strawberry sauce.",
+    "price": 2.1,
+    "currency": "EUR",
+    "calories": 280,
+    "allergens": [
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "id": "coke_small",
+    "name": "Coca‑Cola® (Small)",
+    "category": "Beverages",
+    "description": "Refreshing classic Coke served ice‑cold in a 0.4 L cup.",
+    "price": 1.5,
+    "currency": "EUR",
+    "calories": 140,
+    "allergens": []
+  },
+  {
+    "id": "coke_medium",
+    "name": "Coca‑Cola® (Medium)",
+    "category": "Beverages",
+    "description": "A 0.6 L cup of Coca‑Cola—perfect with any meal.",
+    "price": 1.8,
+    "currency": "EUR",
+    "calories": 200,
+    "allergens": []
+  },
+  {
+    "id": "coke_large",
+    "name": "Coca‑Cola® (Large)",
+    "category": "Beverages",
+    "description": "Supersized 0.9 L serving of Coke to quench any thirst.",
+    "price": 2.1,
+    "currency": "EUR",
+    "calories": 280,
+    "allergens": []
+  },
+  {
+    "id": "diet_coke_medium",
+    "name": "Diet Coke® (Medium)",
+    "category": "Beverages",
+    "description": "Sugar‑free, zero‑calorie Diet Coke in a 0.6 L cup.",
+    "price": 1.8,
+    "currency": "EUR",
+    "calories": 0,
+    "allergens": []
+  },
+  {
+    "id": "sprite_small",
+    "name": "Sprite® (Small)",
+    "category": "Beverages",
+    "description": "Crisp lemon‑lime Sprite served in a 0.4 L cup.",
+    "price": 1.5,
+    "currency": "EUR",
+    "calories": 140,
+    "allergens": []
+  },
+  {
+    "id": "milk_jug",
+    "name": "Low‑Fat Milk Jug",
+    "category": "Beverages",
+    "description": "Chilled 1 % low-fat milk (236 ml). Great source of calcium.",
+    "price": 1.8,
+    "currency": "EUR",
+    "calories": 100,
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "orange_juice_small",
+    "name": "Minute Maid® Orange Juice (Small)",
+    "category": "Beverages",
+    "description": "100 % orange juice, 0.35 L serving, no added sugar.",
+    "price": 2.2,
+    "currency": "EUR",
+    "calories": 150,
+    "allergens": []
+  },
+  {
+    "id": "dasani_water",
+    "name": "Dasani® Water Bottle",
+    "category": "Beverages",
+    "description": "500 ml bottled still water—pure and refreshing.",
+    "price": 1.3,
+    "currency": "EUR",
+    "calories": 0,
+    "allergens": []
+  },
+  {
+    "id": "brew_coffee_small",
+    "name": "Brewed Coffee (Small)",
+    "category": "Coffee & Tea",
+    "description": "Freshly brewed Arabica coffee, served black in a 0.3 L cup.",
+    "price": 1.3,
+    "currency": "EUR",
+    "calories": 0,
+    "allergens": []
+  },
+  {
+    "id": "latte_small",
+    "name": "Latte (Small)",
+    "category": "Coffee & Tea",
+    "description": "Espresso blended with steamed Latvian milk and topped with a light layer of foam.",
+    "price": 2.4,
+    "currency": "EUR",
+    "calories": 170,
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "latte_caramel_medium",
+    "name": "Caramel Latte (Medium)",
+    "category": "Coffee & Tea",
+    "description": "Smooth espresso, caramel syrup and steamed milk finished with caramel drizzle.",
+    "price": 3.1,
+    "currency": "EUR",
+    "calories": 340,
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "iced_coffee_regular",
+    "name": "Regular Iced Coffee (Medium)",
+    "category": "Coffee & Tea",
+    "description": "Chilled brewed coffee poured over ice with a splash of milk and sugar syrup.",
+    "price": 2.2,
+    "currency": "EUR",
+    "calories": 190,
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "hot_chocolate_small",
+    "name": "Hot Chocolate (Small)",
+    "category": "Coffee & Tea",
+    "description": "Rich cocoa blended with steamed milk and topped with velvety foam.",
+    "price": 2.5,
+    "currency": "EUR",
+    "calories": 360,
+    "allergens": [
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "id": "iced_tea_unsweet_medium",
+    "name": "Iced Tea (Medium)",
+    "category": "Coffee & Tea",
+    "description": "Refreshing unsweetened black tea served over ice (0.6 L).",
+    "price": 1.6,
+    "currency": "EUR",
+    "calories": 0,
+    "allergens": []
+  },
+  {
+    "id": "sweet_tea_large",
+    "name": "Sweet Tea (Large)",
+    "category": "Coffee & Tea",
+    "description": "Large (0.9 L) southern‑style sweet black tea, perfectly chilled.",
+    "price": 1.9,
+    "currency": "EUR",
+    "calories": 220,
+    "allergens": []
+  },
+  {
+    "id": "smoothie_strawberry_banana_small",
+    "name": "Strawberry Banana Smoothie (Small)",
+    "category": "Smoothies & Shakes",
+    "description": "Real strawberry purée blended with ripe banana and low‑fat yogurt for a fruity, creamy drink.",
+    "price": 3.1,
+    "currency": "EUR",
+    "calories": 210,
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "smoothie_mango_pineapple_medium",
+    "name": "Mango Pineapple Smoothie (Medium)",
+    "category": "Smoothies & Shakes",
+    "description": "Tropical mango and pineapple mix whirled with low‑fat yogurt and ice for a refreshing boost.",
+    "price": 3.6,
+    "currency": "EUR",
+    "calories": 260,
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "shake_vanilla_small",
+    "name": "Vanilla Shake (Small)",
+    "category": "Smoothies & Shakes",
+    "description": "Classic vanilla soft‑serve blended with shake syrup, topped with whipped cream.",
+    "price": 2.7,
+    "currency": "EUR",
+    "calories": 530,
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "shake_chocolate_medium",
+    "name": "Chocolate Shake (Medium)",
+    "category": "Smoothies & Shakes",
+    "description": "Thick chocolate shake made with vanilla soft‑serve and chocolate syrup, finished with whipped cream.",
+    "price": 3.2,
+    "currency": "EUR",
+    "calories": 700,
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "mcflurry_oreo_small",
+    "name": "McFlurry® with Oreo Cookies (Small)",
+    "category": "Smoothies & Shakes",
+    "description": "Soft‑serve ice cream swirled with crushed Oreo cookie pieces.",
+    "price": 2.9,
+    "currency": "EUR",
+    "calories": 510,
+    "allergens": [
+      "milk",
+      "wheat",
+      "soy"
+    ]
+  },
+  {
+    "id": "mcflurry_mms_snack",
+    "name": "McFlurry® with M&M’s® (Snack)",
+    "category": "Smoothies & Shakes",
+    "description": "Vanilla soft‑serve blended with colorful M&M’s candy bits for a crunchy, chocolatey treat.",
+    "price": 2.4,
+    "currency": "EUR",
+    "calories": 430,
+    "allergens": [
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "id": "smoothie_blueberry_small",
+    "name": "Blueberry‑Pomegranate Smoothie (Small)",
+    "category": "Smoothies & Shakes",
+    "description": "Fruity blend of blueberry and pomegranate purée mixed with low‑fat yogurt, served chilled.",
+    "price": 3.2,
+    "currency": "EUR",
+    "calories": 220,
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "smoothie_blueberry_medium",
+    "name": "Blueberry‑Pomegranate Smoothie (Medium)",
+    "category": "Smoothies & Shakes",
+    "description": "A larger serving of our blueberry‑pomegranate yogurt smoothie.",
+    "price": 3.7,
+    "currency": "EUR",
+    "calories": 260,
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "smoothie_strawberry_small",
+    "name": "Strawberry‑Banana Smoothie (Small)",
+    "category": "Smoothies & Shakes",
+    "description": "Classic strawberry and banana smoothie blended with low‑fat yogurt and ice.",
+    "price": 3.2,
+    "currency": "EUR",
+    "calories": 210,
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "shake_vanilla_small",
+    "name": "Vanilla Shake (Small)",
+    "category": "Smoothies & Shakes",
+    "description": "Thick vanilla-flavoured shake made with dairy ice cream and whipped topping.",
+    "price": 2.7,
+    "currency": "EUR",
+    "calories": 530,
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "shake_strawberry_small",
+    "name": "Strawberry Shake (Small)",
+    "category": "Smoothies & Shakes",
+    "description": "Creamy strawberry shake topped with light whipped cream.",
+    "price": 2.7,
+    "currency": "EUR",
+    "calories": 550,
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "shake_chocolate_small",
+    "name": "Chocolate Shake (Small)",
+    "category": "Smoothies & Shakes",
+    "description": "Rich chocolate shake blended till thick and silky, finished with whipped cream.",
+    "price": 2.7,
+    "currency": "EUR",
+    "calories": 560,
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "mcflurry_oreo_small",
+    "name": "McFlurry® with Oreo® (Small)",
+    "category": "Smoothies & Shakes",
+    "description": "Soft‑serve vanilla ice cream swirled with crushed Oreo cookie pieces.",
+    "price": 2.9,
+    "currency": "EUR",
+    "calories": 510,
+    "allergens": [
+      "milk",
+      "wheat",
+      "soy"
+    ]
+  }
+]
