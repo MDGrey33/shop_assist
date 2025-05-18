@@ -1,0 +1,69 @@
+General Coding Standards
+Write clear, maintainable, and performant code.
+Use constructor-based dependency injection to promote loose coupling.
+Organize code into logical modules: configuration, APIs, DTOs, caching, database, core logic, exceptions, clients, constants, and utilities.
+Follow meaningful and descriptive naming conventions.
+Centralize constants in dedicated enums or files for easy reuse.
+Apply the Single Responsibility Principle for modularity and maintainability.
+Strictly adhere to the DRY (Don't Repeat Yourself) principle; avoid code duplication.
+Document code thoroughly and meaningfully.
+Project Workflow & Execution
+Always check the code before making diagrams; never assume, especially for DB and file paths.
+When instructed to keep running till resolution, use background commands or pipe output with |cat to avoid getting stuck.
+Always start with a healthy amount of doubt: list meaningful options, elaborate on each, and conclude with a plan before executing.
+When running commands, explain what you are doing before, and summarize output and findings after, to keep the user in the loop.
+Always use real data; never mock, simulate, or hardcode unless explicitly required.
+Always use Poetry to run Python scripts and for dependency management.
+Vibe Development
+If following a documented plan in /temp/, reassess the plan after each run.
+If no clear plan exists in /temp/, always start by making a design and plan in /temp/.
+No task is considered complete until progress_plan.md is updated to reflect its status.
+When encountering issues, create debugging_progress.md to track steps and prevent revisiting failed solutions.
+Advanced Principles
+Design services to be stateless; use external storage/caches for state.
+Implement API gateways/reverse proxies for microservice traffic as needed.
+Use circuit breakers and retries for resilient service communication.
+Use asynchronous workers for background tasks.
+Clean Architecture & DDD
+Enforce Clean Architecture: separate concerns into Domain, Application, Infrastructure, Presentation layers.
+Use Dependency Inversion to abstract external providers (DB, cache, APIs).
+Keep the Domain Layer pure, with no external dependencies.
+Apply DDD: define entities, value objects, and aggregates clearly.
+Avoid business logic in controllers/infrastructure; use Application Services for orchestration.
+CQRS
+Separate read and write operations (CQRS).
+Implement Query Handlers for data retrieval, Command Handlers for changes.
+Consider Event Sourcing for audit logs.
+Microservices & API Gateway
+Design APIs with clear separation of concerns and RESTful endpoints.
+Use API gateways and message brokers as appropriate for your architecture.
+Prefer solutions that are open-source, free, and easy to run for development and testing.
+Serverless & Cloud-Native
+Optimize FastAPI apps for efficient execution in various environments.
+Use containers or binaries for deployment as needed.
+Design for scalability, but ensure the solution works out-of-the-box for developers.
+Logging Practices
+Use clear logging levels: INFO for metrics, WARN/ERROR for issues.
+Log exception stack traces clearly for debugging.
+Avoid logging sensitive data; log input parameters selectively.
+Include unique request identifiers for distributed tracing.
+Monitoring & Observability
+Implement structured logging for all services.
+Provide optional monitoring setups for development and debugging.
+Ensure observability tools can be run locally or easily disabled.
+API & Service Design
+Design RESTful APIs using nouns for endpoints.
+Structure services with clear layering (public APIs, internal aggregations).
+Ensure compatibility with common API gateways/proxies.
+Testing Standards & TDD
+Create comprehensive unit tests with isolated functionality; mock external interactions.
+Explicitly handle and test exceptions.
+Avoid unnecessary logging in tests.
+Ensure all tests pass before merging code.
+NEVER modify production code while writing/fixing tests.
+Tests must match current production behavior.
+If tests fail, document and create separate tasks to fix production code.
+Follow strict Red-Green-Refactor: write failing test, then fix production.
+Keep test and production code changes in separate commits.
+Test files should mirror production code structure.
+Tests should be independent and not rely on other tests' state.
